@@ -66,6 +66,36 @@ header {
     background-color: white;
 }
 
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../img/screamSprites.png');
+}
+
+#sidney {
+    background-position: -150px 0;
+}
+
+#dewey {
+    background-position: -300px 0;
+}
+
+#gale {
+    background-position: -450px 0;
+}
+
+#sam {
+    background-position: -600px 0;
+}
+
+#tara {
+    background-position: -750px 0;
+}
+
+.sprite:hover {
+    background-position-y: -150px !important;
+}
+
 article {
     margin: auto;
     width: 50%;
