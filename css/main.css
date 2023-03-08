@@ -133,3 +133,85 @@ footer {
     background-color: #202023;
     height: 120px;
 }
+
+/* lightbox rules */
+
+.lightbox {
+    background-color: #202023f9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 2;
+    
+    background-image: url('../img/ghostface_lb_bg.webp');
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+
+    display: none;
+}
+
+#lightbox2 {
+    background-size: 68vh;
+    background-image: url('../img/sidney_lb_bg.png');
+}
+
+#lightbox3 {
+    background-size: 58vh;
+    background-image: url('../img/dewey_lb_bg.png');
+}
+
+#lightbox4 {
+    background-size: 85vh;
+    background-image: url('../img/gale_lb_bg.png');
+}
+
+#lightbox5 {
+    background-size: 65vh;
+    background-image: url('../img/sam_lb_bg.png');
+}
+
+#lightbox6 {
+    background-size: 78vh;
+    background-image: url('../img/tara_lb_bg.png');
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+    color: #97121b;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 120px;
+}
+
+.lb_text, .lb_heading {
+    text-align: left;
+}
+
+.lb_heading {
+    color: #97121b;
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+    color: white;
+}
+
+.lightbox:target {
+    display: block;
+}
