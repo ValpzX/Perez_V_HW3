@@ -1,0 +1,49 @@
+/* general rules */
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* main header rules */
+
+header {
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#scream-logo {
+    width: 200px;
+    padding: 50px 0;
+}
+
+/* footer rules */
+
+footer {
+    color: white;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.sticky-footer {
+    background-color: #202023;
+    height: 120px;
+}
